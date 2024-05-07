@@ -1,0 +1,148 @@
+/*Given an integer, , perform the following conditional actions:
+
+If  is odd, print Weird
+If  is even and in the inclusive range of  to , print Not Weird
+If  is even and in the inclusive range of  to , print Weird
+If  is even and greater than , print Not Weird
+Complete the stub code provided in your editor to print whether or not  is weird/**/
+
+/*import java.util.Scanner;
+
+public class qna {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.close();
+
+        if (n % 2 == 1) {
+            System.out.println("Weird");
+        } else {
+            if (n >= 2 && n <= 5) {
+                System.out.println("Not Weird");
+            } else if (n >= 6 && n <= 20) {
+                System.out.println("Weird");
+            } else {
+                System.out.println("Not Weird");
+            }
+        }
+    }
+}/* */
+
+// print the output that (*)has four rows and five coloum
+/*import java.util.*;
+public class qna {
+    public static void main (String[]args){
+        int a= 4;
+        int b=5;
+        for (int i=1;i<=a;i++){
+            for(int j=1;j<=b;j++){
+                System.out.print("*");
+            }
+        System.out.println();    
+        }
+    }
+}/* */
+
+// NASTED LOOP
+//PRINT THE PATTERN THAT HAS RECTANGLE WITH EMPTY AREA IN BITWEEN
+
+/*public class qna {
+    public static void main(String[]args){
+
+    
+    int a=5;
+    int b=6;
+    for ( int i = 1;i<=a;i++){
+        for (int j=1;j<=b;j++){
+            if (i==1|| j==1||i==a||j==b){
+                System.out.print("*");
+            }else{
+                    System.out.print(" ");
+                }
+            }
+        System.out.println();
+        }
+    }
+}/* */
+
+//PRINT HALF PYRAMID * PATTERN
+
+/*public class qna{
+    public static void main(String[]args){
+        int a=20;
+        for(int i =1;i<=a;i++){
+            for(int j =1;j<=i;j++){
+                System.out.print("*");
+            } 
+            System.out.println();           
+
+        }
+    }
+}
+
+//PRINT inverted HALF PYRAMID * PATTERN
+
+/*public class qna{
+    public static void main(String[]args){
+        int a =20;
+        for (int i=a;i>=1;i--){
+            for( int j =1;j<=i;j++){
+                System.out.print("*");
+
+            }
+            System.out.println(); 
+        }
+
+    }
+        
+}/* */
+
+/*import java.util.Scanner;
+
+public class qna {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
+       
+       
+
+        // Write your code here.
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}/* */
+
+
+
+
+import java.util.Scanner;
+
+public class qna {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Number of lines of input
+        int numLines = 3; // Assuming there are exactly 3 lines of input
+
+        for (int i = 0; i < numLines; i++) {
+            String inputLine = scanner.nextLine();
+            String[] parts = inputLine.split(" ");
+
+            String str = parts[0];
+            int num = Integer.parseInt(parts[1]);
+
+            // Format the output
+            String formattedString = String.format("%-10s%03d", str, num);
+            System.out.println(formattedString);
+        }
+
+        scanner.close();
+    }
+}
+
