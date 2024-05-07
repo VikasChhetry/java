@@ -72,3 +72,38 @@ public class Array{
         System.out.println(list);
     }
 }
+// Arraylist
+
+import java.util.*;
+import java.scanner;
+package Arrays;
+
+import java.util.ArrayList;
+
+public class Arraylist {
+    public static void main(String[]args){
+        ArrayList<Integer> list = new ArrayList<>(10);
+        list.add(23);
+        list.add(5665);
+        list.add(545);
+        list.add(2553);
+        list.add(7823);
+        list.add(2325);
+        list.add(1223);
+        System.out.println(list);
+        list.remove(2);
+        System.out.println(list);
+        list.set(3,99);
+        System.out.println(list);
+        list.addFirst(3);
+        System.out.println(list);
+        list.contains(2);
+        System.out.println(list);
+        list.clear();
+        System.out.println(list);
+        list.addLast();
+        System.out.println(list);
+    }
+
+    
+}
