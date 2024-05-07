@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class multidimentional {
+    public static void main(String[] args) {
+        /*
+          123
+          456
+          789
+         */
+        Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int [][] arr =new int[a][];//adding coloum is not mandatery
+        // int [][] arr2D={
+        //     {1,2,3},
+        //     {4,5},
+        //     {7,8,9},
+        // };
+        // System.out.println(arr2D);
+        //
+        int[][]arr2 =new int [3][3];
+        System.out.println(arr2.length);
+    //input
+        for (int row = 0; row < arr2.length; row++) {
+         // for each col in every row
+            for (int col = 0; col < arr2[row].length; col++) {
+                arr2[row][col] = sc.nextInt();
+                
+            }
+        }
+        
+     // output
+        for (int row = 0; row < arr2.length; row++) {
+           // for each col in every row
+           for (int col = 0; col < arr2[row].length; col++) {
+               System.out.print(arr2[row][col] + "     ");
+           }
+           System.out.println();
+        }   
+    }
+}
+// now find the matrix of the following
+
+
