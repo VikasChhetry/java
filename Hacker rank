@@ -1,0 +1,405 @@
+//Try to declare meaningful variables of each type. Eg - a variable named age should be a numeric type (int or float) not byte.
+
+/*import java.util.*;
+
+public class homework {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double radius = sc.nextFloat();
+        double circumfarance = 2 * Math.PI * radius;
+        double area = Math.PI * radius * radius;
+
+        System.out.println(radius);
+        System.out.println(area);
+        System.out.println(circumfarance);
+
+    }
+
+}/* */
+
+/*import java.util.*;
+
+public class homework {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        float radius = sc.nextFloat();
+        float circumfarance =2 * (float)Math.PI* radius;
+        float area = (float)Math.PI * radius * radius;
+
+        System.out.println(radius);
+        System.out.println(area);
+        System.out.println(circumfarance);
+
+    }
+
+}/* */
+
+/*import java.util.*;
+
+public class homework {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int table= sc.nextInt();
+        int a =1*table;
+        int b =2*table;
+        int c =3*table;
+        int d =4*table;
+        int e =5*table;
+        int f =6*table;
+        int g =7*table;
+        int h =8*table;
+        int i =9*table;
+        int j =10*table;
+        System.out.println("1*"+table+ "="+a);
+        System.out.println("2*"+table+ "="+b);
+        System.out.println("3*"+table+ "="+c);
+        System.out.println("4*"+table+ "="+d);
+        System.out.println("5*"+table+ "="+e);
+        System.out.println("6*"+table+ "="+f);
+        System.out.println("7*"+table+ "="+g);
+        System.out.println("8*"+table+ "="+h);
+        System.out.println("9*"+table+ "="+i);
+        System.out.println("10*"+table+ "="+j);
+    }  
+}/* */
+        
+/*import java.util.*;
+
+public class homework {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b= sc.nextInt();
+        String symbols= sc.next();
+        int sum = a+b;
+        int mul=a*b;
+        int div=a/b;
+        int sub=a-b;
+        int mod=a%b;
+        int power=a^b;
+        switch (symbols) {
+            case "+": System.out.println(sum);
+            break;
+            case "-": System.out.println(sub);
+            break;
+            case "*": System.out.println(mul);
+            break;
+            case "/": System.out.println(div);
+            break;
+            case "^":System.out.println(power);
+            break;
+            case "%": System.out.println(mod);
+            break;
+
+        
+            default:System.out.println("error");
+            break;
+        }
+            
+        
+        
+
+    }    
+}/* */
+
+/*import java.util.*;
+
+public class homework {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int month=sc.nextInt();
+        switch(month){
+            case 1: System.out.println("First month is jan");
+            break;
+            case 2 :System.out.println("second month is fab");
+            break;
+            case 3 :System.out.println("thired month is march");
+            break;
+            case 4 :System.out.println("forth month is apiral");
+            break;
+            case 5 :System.out.println("fifth month is may");
+            break;
+            case 6 :System.out.println("sixth month is june");
+            break;
+            case 7 :System.out.println("seventh month is july");
+            break;
+            case 8 :System.out.println("eairth month is august");
+            break;
+            case 9 :System.out.println("nineth month is sap");
+            break;
+            case 10 :System.out.println("tenth month is oct");
+            break;
+            case 11 :System.out.println("eleventh month is november");
+            break;
+            case 12 :System.out.println("towaylth month is december");
+            break;
+            default:System.out.println("error");
+            break;
+        }
+    }    
+}  /* */  
+
+
+/*public class homework{
+    public static void main(String[]args){
+        //for loop
+        // insted of counter you can write any variable like i or j.
+        for( int counter=1; counter<14;counter = counter+1 ){ //counter = counter+1 can be written as counter++
+            System.out.println(counter);
+        }
+    }
+}
+/* */
+// import java.util.*;
+
+// public class homework {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.next();
+
+//         switch (name) {
+//             case "Rishabh kon hai" :
+//                 System.out.println("RISHABH BURCHODI HAI");
+//                 break;
+//             case "rishabh":
+//                 System.out.println("RISHABH BURCHODI HAI");
+//                 break;
+//             case "who is rishabh":
+//                 System.out.println("RISHABH BURCHODI HAI");
+//                 break;
+//             case "who is vikas":
+//                 System.out.println("he is my god");
+//                 break;    
+//             default:
+//                 System.out.println("GONDU HO KYA BETICHOD...");
+
+//         }
+
+//     }
+// } 
+
+
+// import java.util.*;
+// public class homework{
+//     public static void main(String[]args){
+//         Scanner sc= new Scanner(System.in);
+//         int a = sc.nextInt();
+//         for ( int i =1 ; i<=10;i++){
+//             System.out.println(a+"*"+i+"="+a*i);
+//         }
+//     }
+
+// }
+
+
+// import java.util.*;
+// import java.io.*;
+
+// public class homework{
+
+//         public static void main(String []argh){
+//             Scanner in = new Scanner(System.in);
+//             int t=in.nextInt();
+//             for(int i=0;i<t;i++){
+//                 int a = in.nextInt();
+//                 int b = in.nextInt();
+//                 int n = in.nextInt();
+//                 int s1 = a+2^n*b;
+//                 for ( int j=1; j<=s1;j++){
+//                     System.out.println(j);
+//                     // int s1 = a+2^n*b;
+//                     // int s2 = a+2^n*b;
+//                     // int s3 = a+2^n*b;
+                    
+//                 }
+                
+              
+//             }
+//             in.close();
+//         }
+//     }
+
+
+/*import java.util.*;
+public class homework{
+    public static int calculationSum(int a, int b){
+        int sum =a+b;
+        return sum;
+    }
+    public static int claculationMulti(int a , int b){
+        return a*b;
+    //     int multi= a*b;//>>>>WE CAN DIRECTLY WRITE RETURN A*B;
+    //     return multi;
+    }
+    public static void newr(int a){
+        int fact = 1;
+        for ( int i=a; i>=1;i--){
+            fact= fact*i;
+            // System.out.println(fact);
+            
+
+        }
+        System.out.println(fact);
+        return;
+    }
+    public static void main ( String[]args){
+        Scanner sc = new Scanner (System.in);
+        int a= sc.nextInt();
+        int b = sc.nextInt();
+        int fact= sc.nextInt();
+        // int sum = a+b;
+        int sum =calculationSum(a,b);
+        int multi=claculationMulti(a,b);
+        newr(a);
+        System.out.println("sum is:"+sum);
+        System.out.println(multi);
+        
+    }
+}*/
+
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+/*class Result {
+
+   
+     
+
+    public static String findDay(int month, int day, int year) {
+        
+        Calendar calendar = Calendar.getInstance();
+        
+        // Set the year, month, and day
+        calendar.set(year, month - 1, day); // Month starts from 0
+        
+        // Get the day of the week in the form of a number (1 = Sunday, 2 = Monday, ..., 7 = Saturday)
+        int dayOfWeekNumber = calendar.get(Calendar.DAY_OF_WEEK);
+        
+        // Array to map the day of the week number to its name
+        String[] daysOfWeek = {"SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
+        
+        // Return the day of the week name
+        return daysOfWeek[dayOfWeekNumber - 1];
+        
+
+    }
+
+}
+
+public class homework {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+
+        int month = Integer.parseInt(firstMultipleInput[0]);
+
+        int day = Integer.parseInt(firstMultipleInput[1]);
+
+        int year = Integer.parseInt(firstMultipleInput[2]);
+
+        String res = Result.findDay(month, day, year);
+
+        bufferedWriter.write(res);
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
+}/* */
+
+
+public class homework{
+    public static void main(String[]args){
+        String a ="vikas";
+       
+    
+        System.out.println(args[3]);  
+    }
+}
+
+
+//take an input form user and convert the money in different currancy format
+import java.util.Scanner;
+import java.text.NumberFormat;
+import java.util.Locale;
+// public class Arrays {
+//     public static void main(String[] args) {
+//         /* Save input */
+//         Scanner scan = new Scanner(System.in);
+//         double payment = scan.nextDouble();
+//         scan.close();
+
+//         /* Create custom Locale for India - I used the "IANA Language Subtag Registry" to find India's country code */
+//         Locale indiaLocale = new Locale("en", "IN");
+
+//         /* Create NumberFormats using Locales */
+//         NumberFormat us     = NumberFormat.getCurrencyInstance(Locale.US);
+//         NumberFormat india  = NumberFormat.getCurrencyInstance(indiaLocale);
+//         NumberFormat china  = NumberFormat.getCurrencyInstance(Locale.CHINA);
+//         NumberFormat france = NumberFormat.getCurrencyInstance(Locale.FRANCE);
+
+//         /* Print output */        
+//         System.out.println("US: "     + us.format(payment));
+//         System.out.println("India: "  + india.format(payment));
+//         System.out.println("China: "  + china.format(payment));
+//         System.out.println("France: " + france.format(payment));
+//     }
+// }       
+       
+
+
+public class Arrays {
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double payment = scanner.nextDouble();
+        scanner.close();
+        NumberFormat usFormat = NumberFormat.getCurrencyInstance(Locale.US);//getCurrencyTnstance gives the symbool of that country currency
+        NumberFormat indiaFormat = NumberFormat.getCurrencyInstance(new Locale("en","IN"));//we can defint the currency type by our self
+        NumberFormat chinaFormat = NumberFormat.getInstance(Locale.CHINA);//getInstance only give the value of that money with out giving its symbool of currency
+        NumberFormat franceFormat = NumberFormat.getInstance(Locale.FRANCE);
+        // String usPayment = usFormat.format(payment);
+        // String indiaPayment = indiaFormat.format(payment);
+        // String chinaPayment = chinaFormat.format(payment);
+        // String francePayment = franceFormat.format(payment);
+        System.out.println("US: " + usFormat.format(payment));
+        System.out.println("China: " + chinaFormat.format(payment));
+        System.out.println("India: " + indiaFormat.format(payment));
+        System.out.println("France: " + franceFormat.format(payment));
+        
+       
+    }
+}
+
+// public class Arrays {
+//     public static void main(String[] args) {
+//         /* Save input */
+//         Scanner scan = new Scanner(System.in);
+//         double payment = scan.nextDouble();
+//         scan.close();
+
+//         /* Create custom Locale for India - I used the "IANA Language Subtag Registry" to find India's country code */
+//         Locale indiaLocale = new Locale("en", "IN");
+
+//         /* Create NumberFormats using Locales */
+//         NumberFormat us     = NumberFormat.getCurrencyInstance(Locale.US);
+//         NumberFormat india  = NumberFormat.getCurrencyInstance(indiaLocale);
+//         NumberFormat china  = NumberFormat.getCurrencyInstance(Locale.CHINA);
+//         NumberFormat france = NumberFormat.getCurrencyInstance(Locale.FRANCE);
+
+//         /* Print output */        
+//         System.out.println("US: "     + us.format(payment));
+//         System.out.println("India: "  + india.format(payment));
+//         System.out.println("China: "  + china.format(payment));
+//         System.out.println("France: " + france.format(payment));
+//     }
+// }        
