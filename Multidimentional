@@ -40,4 +40,19 @@ public class multidimentional {
 }
 // now find the matrix of the following
 
+/*import java.util.Arrays;
 
+public class multi {
+    public static void main(String[] args) {
+        int[] nums = {3, 4, 5, 12};
+        System.out.println(Arrays.toString(nums));
+        change(nums);
+        System.out.println(Arrays.toString(nums));
+    }
+    static void change(int[] arr) {
+        arr[0] = 99;
+    }
+}*/
+// the output of this code will be
+[3, 4, 5, 12]
+[99, 4, 5, 12]
